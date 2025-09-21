@@ -36,7 +36,7 @@ To build a simple, lightweight AI-based recommendation engine that suggests the 
 
 1. Clone or Download
    git clone https://github.com/ninja0x01/margdarshak.git
-   <br?
+   <br>
    cd margdarshak
 
 3. Create Virtual Environment
