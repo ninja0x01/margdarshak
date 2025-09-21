@@ -36,22 +36,23 @@ To build a simple, lightweight AI-based recommendation engine that suggests the 
 
 1. Clone or Download
    git clone https://github.com/ninja0x01/margdarshak.git
+   <br?
    cd margdarshak
 
-2. Create Virtual Environment
+3. Create Virtual Environment
    python -m venv venv
 
    Activate it:
    - Windows: venv\Scripts\activate
    - Linux/macOS: source venv/bin/activate
 
-3. Install Dependencies
+4. Install Dependencies
    pip install Flask
 
-4. Run the Server
+5. Run the Server
    python app.py
 
-5. Open in Browser
+6. Open in Browser
    http://127.0.0.1:5000
 
 --------------------------------------------------
