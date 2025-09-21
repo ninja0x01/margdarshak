@@ -31,20 +31,7 @@ To build a simple, lightweight AI-based recommendation engine that suggests the 
 - Can be extended with advanced ML/NLP methods.
 
 --------------------------------------------------
-📂 Project Structure
-margdarshak/
-├── app.py               # Flask backend server
-├── recommender.py       # Recommendation engine logic
-├── data/
-│   └── internships.json # Internship dataset
-├── static/
-│   ├── style.css        # CSS styling
-│   └── script.js        # Frontend JS
-├── templates/
-│   └── index.html       # Frontend HTML
-└── README.txt           # Project documentation
 
---------------------------------------------------
 🚀 Getting Started
 
 1. Clone or Download
