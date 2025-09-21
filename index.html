@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Margdarshak | Job Search</title>
+  <link rel="stylesheet" href="resources/css/style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <h2 class="logo">Margdarshak</h2>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about_us.html">About</a>
+        <a href="#searchInput">Find Job</a>
+        <a href="#">profile</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Your Ultimate Job Search Companion</h1>
+      <p>
+        Find the right internship easily without the hassle of searching.
+        AI accurately helps you match with opportunities tailored just for you.
+      </p>
+      <button class="btn-primary">🔍 Find Best Internships</button>
+      <p class="job-count">10,000+ jobs ⚡ Trusted by top companies</p>
+    </div>
+  </section>
+
+  <!-- Companies Section with Marquee -->
+  <div class="marquee-wrapper">
+                            <div class="marquee-container py-7 lg:py-9 bg-base-100 rounded-t-3xl container mx-auto">
+                                <div class="slider">
+                                    <div class="slide-track">
+                                        <div class="slide"><img src="https://cdn.shopify.com/s/files/1/0617/1757/7911/files/LOGO_01.png" alt=""></div>
+                                        <div class="slide"><img src="https://cdn.shopify.com/s/files/1/0617/1757/7911/files/LOGO_2.png" alt=""></div>
+                                        <div class="slide"><img src="https://cdn.shopify.com/s/files/1/0617/1757/7911/files/LOGO_3.png" alt=""></div>
+                                        <div class="slide"><img src="https://cdn.shopify.com/s/files/1/0617/1757/7911/files/LOGO_4.png" alt=""></div>
+                                        <div class="slide"><img src="https://cdn.shopify.com/s/files/1/0617/1757/7911/files/LOGO_01.png" alt=""></div>
+                                        <div class="slide"><img src="https://cdn.shopify.com/s/files/1/0617/1757/7911/files/LOGO_2.png" alt=""></div>
+                                        <div class="slide"><img src="https://cdn.shopify.com/s/files/1/0617/1757/7911/files/LOGO_3.png" alt=""></div>
+                                        <div class="slide"><img src="https://cdn.shopify.com/s/files/1/0617/1757/7911/files/LOGO_4.png" alt=""></div>
+                                        <div class="slide"><img src="https://cdn.shopify.com/s/files/1/0617/1757/7911/files/LOGO_01.png" alt=""></div>
+                                        <div class="slide"><img src="https://cdn.shopify.com/s/files/1/0617/1757/7911/files/LOGO_2.png" alt=""></div>
+                                        <div class="slide"><img src="https://cdn.shopify.com/s/files/1/0617/1757/7911/files/LOGO_3.png" alt=""></div>
+                                        <div class="slide"><img src="https://cdn.shopify.com/s/files/1/0617/1757/7911/files/LOGO_4.png" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+  <!-- Job Section -->
+  <section class="jobs-section">
+    <!-- Filter Sidebar -->
+    <aside class="filter">
+      <!-- Internship Type -->
+<div class="filter">
+  <h3>Internship Type</h3>
+  <label><input type="checkbox" name="internship_type" value="Full-time"> Full-time</label><br>
+  <label><input type="checkbox" name="internship_type" value="Part-time"> Part-time</label>
+</div>
+
+<!-- Job Type -->
+<div class="filter">
+  <h3>Job Type</h3>
+  <label><input type="checkbox" name="job_type" value="Remote"> Remote</label><br>
+  <label><input type="checkbox" name="job_type" value="Hybrid"> Hybrid</label><br>
+  <label><input type="checkbox" name="job_type" value="On-site"> On-site</label>
+</div>
+
+      <h3>Location</h3>
+  <select>
+    <option value="">All States</option>
+    <option value="andhra pradesh">Andhra Pradesh</option>
+    <option value="arunachal pradesh">Arunachal Pradesh</option>
+    <option value="assam">Assam</option>
+    <option value="bihar">Bihar</option>
+    <option value="chhattisgarh">Chhattisgarh</option>
+    <option value="goa">Goa</option>
+    <option value="gujarat">Gujarat</option>
+    <option value="haryana">Haryana</option>
+    <option value="himachal pradesh">Himachal Pradesh</option>
+    <option value="jharkhand">Jharkhand</option>
+    <option value="karnataka">Karnataka</option>
+    <option value="kerala">Kerala</option>
+    <option value="madhya pradesh">Madhya Pradesh</option>
+    <option value="maharashtra">Maharashtra</option>
+    <option value="manipur">Manipur</option>
+    <option value="meghalaya">Meghalaya</option>
+    <option value="mizoram">Mizoram</option>
+    <option value="nagaland">Nagaland</option>
+    <option value="odisha">Odisha</option>
+    <option value="punjab">Punjab</option>
+    <option value="rajasthan">Rajasthan</option>
+    <option value="sikkim">Sikkim</option>
+    <option value="tamil nadu">Tamil Nadu</option>
+    <option value="telangana">Telangana</option>
+    <option value="tripura">Tripura</option>
+    <option value="uttar pradesh">Uttar Pradesh</option>
+    <option value="uttarakhand">Uttarakhand</option>
+    <option value="west bengal">West Bengal</option>
+    <!-- Union Territories -->
+    <option value="andaman and nicobar islands">Andaman and Nicobar Islands</option>
+    <option value="chandigarh">Chandigarh</option>
+    <option value="dadra and nagar haveli and daman and diu">Dadra and Nagar Haveli and Daman and Diu</option>
+    <option value="delhi">Delhi</option>
+    <option value="jammu and kashmir">Jammu and Kashmir</option>
+    <option value="ladakh">Ladakh</option>
+    <option value="lakshadweep">Lakshadweep</option>
+    <option value="puducherry">Puducherry</option>
+  </select>
+    </aside>
+
+    <!-- Job List -->
+    <div class="job-list">
+      <div class="job-header">
+    <input type="text" id="searchInput" placeholder="Search by Designation, Company...">
+    <ul id="suggestions" class="suggestions-list"></ul>
+    <span id="results-count">Loading...</span>
+    <button class="btn-secondary" id="searchBtn">Apply</button>
+</div>
+
+
+ 
+
+<!-- View Job Page -->
+<div id="job-view-page" style="display:none;">
+    <button id="backBtn" class="btn-secondary">← Back to Listings</button>
+    <div id="job-details"></div>
+    <h3>Suggested Internships</h3>
+    <div id="suggested-jobs"></div>
+</div>
+
+      <!-- Jobs will load here -->
+      <div id="jobs-container"></div>
+
+      <!-- Pagination -->
+      <div class="pagination">
+        <button id="prevBtn" class="btn-secondary">⬅ Prev</button>
+        <span id="page-info">Page 1</span>
+        <button id="nextBtn" class="btn-primary">Next ➡</button>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <script src="resources/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margdarshak | Apply for Position</title>
+    <style>
+        /* =========================
+       Global Styles
+    ========================= */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #667eea 100%);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            color: #1a202c;
+            line-height: 1.6;
+        }
+
+        /* =========================
+       Back Button
+    ========================= */
+        .back-button-section {
+            position: sticky;
+            top: 0;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            z-index: 100;
+            padding: 16px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        #backBtn {
+            margin-left: 32px;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 12px;
+            padding: 12px 20px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            backdrop-filter: blur(10px);
+            text-decoration: none;
+        }
+
+        #backBtn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-1px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        /* =========================
+       Main Container
+    ========================= */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 32px;
+        }
+
+        /* =========================
+       Application Form Card
+    ========================= */
+        .application-form-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 24px;
+            padding: 48px;
+            box-shadow:
+                0 20px 40px rgba(0, 0, 0, 0.1),
+                0 1px 3px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        /* =========================
+       Form Header
+    ========================= */
+        .form-header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+        }
+
+        .form-title {
+            font-size: 36px;
+            font-weight: 800;
+            color: #0f172a;
+            margin: 0 0 12px 0;
+            letter-spacing: -0.02em;
+        }
+
+        .job-info {
+            background: linear-gradient(135deg, #667eea, #667eea);
+            color: white;
+            padding: 20px;
+            border-radius: 16px;
+            margin: 20px 0;
+        }
+
+        .job-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 0 0 8px 0;
+        }
+
+        .job-details {
+            font-size: 14px;
+            opacity: 0.9;
+            margin: 0;
+        }
+
+        /* =========================
+       Form Styles
+    ========================= */
+        .application-form {
+            display: grid;
+            gap: 24px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .form-group.full-width {
+            grid-column: 1 / -1;
+        }
+
+        .form-label {
+            font-size: 14px;
+            font-weight: 600;
+            color: #374151;
+            letter-spacing: 0.025em;
+        }
+
+        .required {
+            color: #ef4444;
+        }
+
+        .form-input,
+        .form-textarea,
+        .form-select {
+            padding: 16px;
+            border: 2px solid #e5e7eb;
+            border-radius: 12px;
+            font-size: 16px;
+            font-family: inherit;
+            background: white;
+            transition: all 0.2s ease;
+            color: #1f2937;
+        }
+
+        .form-input:focus,
+        .form-textarea:focus,
+        .form-select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .form-textarea {
+            resize: vertical;
+            min-height: 120px;
+            font-family: inherit;
+        }
+
+        .form-select {
+            cursor: pointer;
+        }
+
+        /* File Upload Styles */
+        .file-upload-area {
+            border: 2px dashed #d1d5db;
+            border-radius: 12px;
+            padding: 32px;
+            text-align: center;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .file-upload-area:hover {
+            border-color: #667eea;
+            background: rgba(102, 126, 234, 0.02);
+        }
+
+        .file-upload-area.dragover {
+            border-color: #667eea;
+            background: rgba(102, 126, 234, 0.05);
+        }
+
+        .file-upload-icon {
+            font-size: 48px;
+            color: #9ca3af;
+            margin-bottom: 16px;
+            display: block;
+        }
+
+        .file-upload-text {
+            font-size: 16px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+
+        .file-upload-subtext {
+            font-size: 14px;
+            color: #9ca3af;
+        }
+
+        .file-input {
+            position: absolute;
+            inset: 0;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .uploaded-file {
+            background: #f0fdf4;
+            border: 1px solid #bbf7d0;
+            border-radius: 8px;
+            padding: 12px 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 12px;
+        }
+
+        .file-name {
+            font-size: 14px;
+            color: #166534;
+            font-weight: 500;
+        }
+
+        .remove-file {
+            background: none;
+            border: none;
+            color: #dc2626;
+            cursor: pointer;
+            font-size: 16px;
+            padding: 4px;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+
+        .remove-file:hover {
+            background: rgba(220, 38, 38, 0.1);
+        }
+
+        /* Checkbox Styles */
+        .checkbox-group {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-top: 8px;
+        }
+
+        .checkbox-input {
+            width: 20px;
+            height: 20px;
+            accent-color: #667eea;
+            cursor: pointer;
+        }
+
+        .checkbox-label {
+            font-size: 14px;
+            color: #4b5563;
+            cursor: pointer;
+            line-height: 1.5;
+        }
+
+        .checkbox-label a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .checkbox-label a:hover {
+            text-decoration: underline;
+        }
+
+        /* Submit Button */
+        .submit-section {
+            margin-top: 32px;
+            text-align: center;
+        }
+
+        .submit-button {
+            background: linear-gradient(135deg, #667eea, #667eea);
+            color: white;
+            border: none;
+            border-radius: 16px;
+            padding: 18px 48px;
+            font-size: 18px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            box-shadow: 0 8px 32px rgba(102, 126, 234, 0.4);
+            min-width: 200px;
+        }
+
+        .submit-button:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 40px rgba(102, 126, 234, 0.5);
+        }
+
+        .submit-button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .submit-button::after {
+            content: "→";
+            font-size: 20px;
+            transition: transform 0.2s;
+        }
+
+        .submit-button:hover:not(:disabled)::after {
+            transform: translateX(2px);
+        }
+
+        /* Loading State */
+        .loading .submit-button::after {
+            content: "";
+            width: 20px;
+            height: 20px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-top: 2px solid white;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Success Message */
+        .success-message {
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+            padding: 24px;
+            border-radius: 16px;
+            text-align: center;
+            margin-bottom: 24px;
+            display: none;
+        }
+
+        .success-message.show {
+            display: block;
+            animation: slideIn 0.3s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Error Styles */
+        .form-group.error .form-input,
+        .form-group.error .form-textarea,
+        .form-group.error .form-select {
+            border-color: #ef4444;
+            box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
+        }
+
+        .error-message {
+            font-size: 14px;
+            color: #ef4444;
+            margin-top: 4px;
+        }
+
+        /* =========================
+       Responsive Design
+    ========================= */
+        @media (max-width: 768px) {
+            .container {
+                padding: 16px;
+            }
+
+            .application-form-card {
+                padding: 32px;
+            }
+
+            .form-title {
+                font-size: 28px;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+
+            #backBtn {
+                margin-left: 16px;
+            }
+
+            .file-upload-area {
+                padding: 24px;
+            }
+
+            .submit-button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Back Button Section -->
+    <div class="back-button-section">
+        <a href="#" id="backBtn">← Back to Job Details</a>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <div class="application-form-card">
+            <!-- Success Message -->
+            <div id="successMessage" class="success-message">
+    <h3 style="margin: 0 0 8px 0;">🎉 Application Submitted Successfully!</h3>
+    <p style="margin: 0; opacity: 0.9;">Thank you for your interest. We'll review your application and get back to you soon.</p>
+
+   <!-- Video Section -->
+    <div style="margin-top: 15px; text-align: center;">
+        <video width="320" height="240" autoplay loop muted>
+            <source src="resources/aessests/v1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
+
+
+
+            <!-- Form Header -->
+            <div class="form-header">
+                <!-- <h1 class="form-title">Apply for Position</h1> -->
+                <div class="job-info" id="jobInfo">
+                    <h1>Internship Application</h1>
+                    <p>Take the first step towards your career journey</p>
+                </div>
+            </div>
+
+            <!-- Application Form -->
+            <form id="applicationForm" class="application-form">
+                <!-- Personal Information -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label" for="firstName">
+                            First Name <span class="required">*</span>
+                        </label>
+                        <input type="text" id="firstName" name="firstName" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="lastName">
+                            Last Name <span class="required">*</span>
+                        </label>
+                        <input type="text" id="lastName" name="lastName" class="form-input" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label" for="email">
+                            Email Address <span class="required">*</span>
+                        </label>
+                        <input type="email" id="email" name="email" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="phone">
+                            Phone Number <span class="required">*</span>
+                        </label>
+                        <input type="tel" id="phone" name="phone" class="form-input" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label" for="location">
+                            Current Location <span class="required">*</span>
+                        </label>
+                        <input type="text" id="location" name="location" class="form-input"
+                            placeholder="City, State/Country" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="experience">
+                            Years of Experience
+                        </label>
+                        <select id="experience" name="experience" class="form-select">
+                            <option value="">Select experience level</option>
+                            <option value="0">Fresh Graduate / No Experience</option>
+                            <option value="1">Less than 1 year</option>
+                            <option value="2">1-2 years</option>
+                            <option value="3">2-3 years</option>
+                            <option value="4">3-5 years</option>
+                            <option value="5">5+ years</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label" for="education">
+                            Highest Education <span class="required">*</span>
+                        </label>
+                        <select id="education" name="education" class="form-select" required>
+                            <option value="">Select education level</option>
+                            <option value="high-school">High School</option>
+                            <option value="diploma">Diploma</option>
+                            <option value="bachelor">Bachelor's Degree</option>
+                            <option value="master">Master's Degree</option>
+                            <option value="phd">PhD</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="field">
+                            Field of Study <span class="required">*</span>
+                        </label>
+                        <input type="text" id="field" name="field" class="form-input"
+                            placeholder="e.g., Computer Science, Civil Engineering" required>
+                    </div>
+                </div>
+
+                <!-- Skills & Experience -->
+                <div class="form-group full-width"> <label class="form-label" for="skills"> Relevant Skills <span
+                            class="required">*</span> </label> <input type="text" id="skills" name="skills"
+                        class="form-input"
+                        placeholder="e.g., AutoCAD, JavaScript, Project Management (separate with commas)" required>
+                </div>
+
+
+
+
+
+                <div class="form-group full-width">
+                    <label class="form-label" for="coverLetter">
+                        Cover Letter / Why are you interested in this position? <span class="required">*</span>
+                    </label>
+                    <textarea id="coverLetter" name="coverLetter" class="form-textarea"
+                        placeholder="Tell us about your interest in this role, relevant experience, and what you can bring to the team..."
+                        required></textarea>
+                </div>
+
+                <!-- File Uploads -->
+                <div class="form-group full-width">
+                    <label class="form-label">
+                        Resume/CV <span class="required">*</span>
+                    </label>
+                    <div class="file-upload-area" id="resumeUpload">
+                        <span class="file-upload-icon">📄</span>
+                        <div class="file-upload-text">Drop your resume here or click to browse</div>
+                        <div class="file-upload-subtext">PDF, DOC, DOCX (Max 5MB)</div>
+                        <input type="file" id="resume" name="resume" class="file-input" accept=".pdf,.doc,.docx"
+                            required>
+                    </div>
+                    <div id="resumeFile"></div>
+                </div>
+
+                <div class="form-group full-width">
+                    <label class="form-label">
+                        Portfolio/Additional Documents (Optional)
+                    </label>
+                    <div class="file-upload-area" id="portfolioUpload">
+                        <span class="file-upload-icon">📁</span>
+                        <div class="file-upload-text">Drop portfolio files here or click to browse</div>
+                        <div class="file-upload-subtext">PDF, DOC, DOCX, ZIP (Max 10MB)</div>
+                        <input type="file" id="portfolio" name="portfolio" class="file-input"
+                            accept=".pdf,.doc,.docx,.zip" multiple>
+                    </div>
+                    <div id="portfolioFiles"></div>
+                </div>
+
+                <!-- Additional Questions -->
+                <div class="form-group full-width">
+                    <label class="form-label" for="availability">
+                        When can you start? <span class="required">*</span>
+                    </label>
+                    <select id="availability" name="availability" class="form-select" required>
+                        <option value="">Select availability</option>
+                        <option value="immediately">Immediately</option>
+                        <option value="1-week">Within 1 week</option>
+                        <option value="2-weeks">Within 2 weeks</option>
+                        <option value="1-month">Within 1 month</option>
+                        <option value="flexible">Flexible</option>
+                    </select>
+                </div>
+
+                <div class="form-group full-width">
+                    <label class="form-label" for="salary">
+                        Expected Salary/Stipend (Optional)
+                    </label>
+                    <input type="text" id="salary" name="salary" class="form-input"
+                        placeholder="e.g., ₹15,000/month or Negotiable">
+                </div>
+
+                <div class="form-group full-width">
+                    <label class="form-label" for="questions">
+                        Questions or Additional Comments
+                    </label>
+                    <textarea id="questions" name="questions" class="form-textarea"
+                        placeholder="Any questions about the role or additional information you'd like to share..."></textarea>
+                </div>
+
+                <!-- Terms and Conditions -->
+                <div class="form-group full-width">
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="terms" name="terms" class="checkbox-input" required>
+                        <label for="terms" class="checkbox-label">
+                            I agree to the <a href="#" target="_blank">Terms of Service</a> and <a href="#"
+                                target="_blank">Privacy Policy</a> <span class="required">*</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group full-width">
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="updates" name="updates" class="checkbox-input">
+                        <label for="updates" class="checkbox-label">
+                            I would like to receive updates about similar opportunities and company news
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="submit-section">
+                    <button type="submit" class="submit-button" id="submitBtn">
+                        Submit Application
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        let currentJob = null;
+
+        // Get job ID from URL and load job info
+        function getJobId() {
+            const params = new URLSearchParams(window.location.search);
+            return params.get("id");
+        }
+
+        async function loadJobInfo() {
+            try {
+                const jobId = getJobId();
+                if (!jobId) {
+                    // Show default job info if no ID
+                    return;
+                }
+
+                const res = await fetch("internships_dataset_large.json");
+                const internships = await res.json();
+                currentJob = internships[jobId];
+
+                if (currentJob) {
+                    document.getElementById('jobTitle').textContent = currentJob.title || 'Position';
+                    document.getElementById('jobDetails').textContent =
+                        `${currentJob.job_role || 'Role'} • ${currentJob.job_type || 'Mode'} • ${currentJob.salary || 'Salary'}`;
+                }
+            } catch (error) {
+                console.error('Error loading job info:', error);
+            }
+        }
+
+        // File upload handlers
+        function setupFileUpload(uploadAreaId, inputId, fileDisplayId) {
+            const uploadArea = document.getElementById(uploadAreaId);
+            const fileInput = document.getElementById(inputId);
+            const fileDisplay = document.getElementById(fileDisplayId);
+
+            uploadArea.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                uploadArea.classList.add('dragover');
+            });
+
+            uploadArea.addEventListener('dragleave', () => {
+                uploadArea.classList.remove('dragover');
+            });
+
+            uploadArea.addEventListener('drop', (e) => {
+                e.preventDefault();
+                uploadArea.classList.remove('dragover');
+                const files = e.dataTransfer.files;
+                if (files.length > 0) {
+                    fileInput.files = files;
+                    displayFiles(files, fileDisplay);
+                }
+            });
+
+            fileInput.addEventListener('change', (e) => {
+                displayFiles(e.target.files, fileDisplay);
+            });
+        }
+
+        function displayFiles(files, container) {
+            container.innerHTML = '';
+            for (let file of files) {
+                const fileDiv = document.createElement('div');
+                fileDiv.className = 'uploaded-file';
+                fileDiv.innerHTML = `
+          <span class="file-name">${file.name} (${(file.size / 1024 / 1024).toFixed(2)} MB)</span>
+          <button type="button" class="remove-file" onclick="removeFile(this)">×</button>
+        `;
+                container.appendChild(fileDiv);
+            }
+        }
+
+        function removeFile(button) {
+            button.parentElement.remove();
+            // Clear the file input
+            const fileInputs = document.querySelectorAll('.file-input');
+            fileInputs.forEach(input => input.value = '');
+        }
+
+        // Form validation
+        function validateForm() {
+            let isValid = true;
+            const requiredFields = document.querySelectorAll('[required]');
+
+            requiredFields.forEach(field => {
+                const formGroup = field.closest('.form-group');
+                const existingError = formGroup.querySelector('.error-message');
+
+                if (existingError) {
+                    existingError.remove();
+                }
+
+                formGroup.classList.remove('error');
+
+                if (!field.value.trim()) {
+                    isValid = false;
+                    formGroup.classList.add('error');
+                    const errorMsg = document.createElement('div');
+                    errorMsg.className = 'error-message';
+                    errorMsg.textContent = 'This field is required';
+                    formGroup.appendChild(errorMsg);
+                }
+            });
+
+            // Email validation
+            const email = document.getElementById('email');
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (email.value && !emailRegex.test(email.value)) {
+                isValid = false;
+                const formGroup = email.closest('.form-group');
+                formGroup.classList.add('error');
+                const errorMsg = document.createElement('div');
+                errorMsg.className = 'error-message';
+                errorMsg.textContent = 'Please enter a valid email address';
+                formGroup.appendChild(errorMsg);
+            }
+
+            return isValid;
+        }
+
+        // Form submission
+        document.getElementById('applicationForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            if (!validateForm()) {
+                return;
+            }
+
+            const submitBtn = document.getElementById('submitBtn');
+            const form = document.getElementById('applicationForm');
+            const successMessage = document.getElementById('successMessage');
+
+            // Show loading state
+            document.body.classList.add('loading');
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Submitting Application...';
+
+            // Simulate API call
+            try {
+                await new Promise(resolve => setTimeout(resolve, 2000));
+
+                // Show success message
+                successMessage.classList.add('show');
+                form.style.display = 'none';
+
+                // Scroll to top
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+
+            } catch (error) {
+                alert('Error submitting application. Please try again.');
+            } finally {
+                document.body.classList.remove('loading');
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Submit Application';
+            }
+        });
+
+        // Back button
+        document.getElementById('backBtn').addEventListener('click', (e) => {
+            e.preventDefault();
+            const jobId = getJobId();
+            if (jobId) {
+                window.location.href = `view-job.html?id=${jobId}`;
+            } else {
+                window.history.back();
+            }
+        });
+
+        // Initialize page
+        document.addEventListener('DOMContentLoaded', () => {
+            loadJobInfo();
+            setupFileUpload('resumeUpload', 'resume', 'resumeFile');
+            setupFileUpload('portfolioUpload', 'portfolio', 'portfolioFiles');
+        });
+    </script>
+</body>
+
+</html>

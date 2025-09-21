@@ -1,0 +1,1332 @@
+[
+    {
+        "title": "Civil Intern",
+        "internship_type": "Part-time",
+        "domain": "Civil",
+        "overview": "Exciting opportunity to work on projects related to Civil.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "AutoCAD",
+            "STAAD Pro",
+            "Structural Design"
+        ],
+        "job_type": "Remote",
+        "job_role": "Civil Engineer Intern",
+        "salary": "5091 INR/month",
+        "location": "Mumbai, Maharashtra"
+    },
+    {
+        "title": "Artificial Intelligence / Machine Learning Intern",
+        "internship_type": "Part-time",
+        "domain": "Artificial Intelligence / Machine Learning",
+        "overview": "Exciting opportunity to work on projects related to Artificial Intelligence / Machine Learning.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "NLP",
+            "Python",
+            "Data Science"
+        ],
+        "job_type": "Hybrid",
+        "job_role": "AI Research Intern",
+        "salary": "15712 INR/month",
+        "location": "Hyderabad, Telangana"
+    },
+    {
+        "title": "Cyber Security Intern",
+        "internship_type": "Part-time",
+        "domain": "Cyber Security",
+        "overview": "Exciting opportunity to work on projects related to Cyber Security.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Linux",
+            "Networking",
+            "Penetration Testing"
+        ],
+        "job_type": "Remote",
+        "job_role": "Vulnerability Research Intern",
+        "salary": "5592 INR/month",
+        "location": "Noida, Uttar Pradesh"
+    },
+    {
+        "title": "Data Science Intern",
+        "internship_type": "Full-time",
+        "domain": "Data Science",
+        "overview": "Exciting opportunity to work on projects related to Data Science.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "NumPy",
+            "Python",
+            "SQL"
+        ],
+        "job_type": "Hybrid",
+        "job_role": "Data Analyst Intern",
+        "salary": "8285 INR/month",
+        "location": "Bangalore, Karnataka"
+    },
+    {
+        "title": "Artificial Intelligence / Machine Learning Intern",
+        "internship_type": "Full-time",
+        "domain": "Artificial Intelligence / Machine Learning",
+        "overview": "Exciting opportunity to work on projects related to Artificial Intelligence / Machine Learning.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "PyTorch",
+            "NLP",
+            "Data Science"
+        ],
+        "job_type": "Hybrid",
+        "job_role": "ML Engineer Intern",
+        "salary": "13649 INR/month",
+        "location": "Pune, Maharashtra"
+    },
+    {
+        "title": "Mechanical Intern",
+        "internship_type": "Full-time",
+        "domain": "Mechanical",
+        "overview": "Exciting opportunity to work on projects related to Mechanical.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Manufacturing",
+            "SolidWorks",
+            "Thermodynamics"
+        ],
+        "job_type": "Hybrid",
+        "job_role": "Mechanical Design Intern",
+        "salary": "13617 INR/month",
+        "location": "Pune, Maharashtra"
+    },
+    {
+        "title": "Mechanical Intern",
+        "internship_type": "Part-time",
+        "domain": "Mechanical",
+        "overview": "Exciting opportunity to work on projects related to Mechanical.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "AutoCAD",
+            "SolidWorks",
+            "Manufacturing"
+        ],
+        "job_type": "Remote",
+        "job_role": "Mechanical Design Intern",
+        "salary": "18905 INR/month",
+        "location": "Pune, Maharashtra"
+    },
+    {
+        "title": "Electrical Intern",
+        "internship_type": "Full-time",
+        "domain": "Electrical",
+        "overview": "Exciting opportunity to work on projects related to Electrical.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Circuit Design",
+            "Power Systems",
+            "MATLAB"
+        ],
+        "job_type": "Onsite",
+        "job_role": "Electrical Design Intern",
+        "salary": "15885 INR/month",
+        "location": "Bhopal, Madhya Pradesh"
+    },
+    {
+        "title": "Artificial Intelligence / Machine Learning Intern",
+        "internship_type": "Full-time",
+        "domain": "Artificial Intelligence / Machine Learning",
+        "overview": "Exciting opportunity to work on projects related to Artificial Intelligence / Machine Learning.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "PyTorch",
+            "Data Science",
+            "Python"
+        ],
+        "job_type": "Hybrid",
+        "job_role": "Data Scientist Intern",
+        "salary": "12306 INR/month",
+        "location": "Pune, Maharashtra"
+    },
+    {
+        "title": "Civil Intern",
+        "internship_type": "Full-time",
+        "domain": "Civil",
+        "overview": "Exciting opportunity to work on projects related to Civil.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Site Supervision",
+            "Structural Design",
+            "STAAD Pro"
+        ],
+        "job_type": "Onsite",
+        "job_role": "Civil Engineer Intern",
+        "salary": "14318 INR/month",
+        "location": "Delhi NCR"
+    },
+    {
+        "title": "Electrical Intern",
+        "internship_type": "Part-time",
+        "domain": "Electrical",
+        "overview": "Exciting opportunity to work on projects related to Electrical.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Power Systems",
+            "Embedded Systems",
+            "Circuit Design"
+        ],
+        "job_type": "Onsite",
+        "job_role": "Electrical Design Intern",
+        "salary": "15908 INR/month",
+        "location": "Bhopal, Madhya Pradesh"
+    },
+    {
+        "title": "Electrical Intern",
+        "internship_type": "Full-time",
+        "domain": "Electrical",
+        "overview": "Exciting opportunity to work on projects related to Electrical.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "MATLAB",
+            "Embedded Systems",
+            "Circuit Design"
+        ],
+        "job_type": "Hybrid",
+        "job_role": "Power Engineer Intern",
+        "salary": "10562 INR/month",
+        "location": "Bhopal, Madhya Pradesh"
+    },
+    {
+        "title": "Data Science Intern",
+        "internship_type": "Full-time",
+        "domain": "Data Science",
+        "overview": "Exciting opportunity to work on projects related to Data Science.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "NumPy",
+            "Pandas",
+            "Python"
+        ],
+        "job_type": "Remote",
+        "job_role": "Data Analyst Intern",
+        "salary": "14700 INR/month",
+        "location": "Hyderabad, Telangana"
+    },
+    {
+        "title": "Data Science Intern",
+        "internship_type": "Part-time",
+        "domain": "Data Science",
+        "overview": "Exciting opportunity to work on projects related to Data Science.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Python",
+            "NumPy",
+            "Pandas"
+        ],
+        "job_type": "Remote",
+        "job_role": "Data Engineer Intern",
+        "salary": "9544 INR/month",
+        "location": "Bangalore, Karnataka"
+    },
+    {
+        "title": "Game Development Intern",
+        "internship_type": "Full-time",
+        "domain": "Game Development",
+        "overview": "Exciting opportunity to work on projects related to Game Development.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "C++",
+            "C#",
+            "3D Modeling"
+        ],
+        "job_type": "Hybrid",
+        "job_role": "Level Designer Intern",
+        "salary": "14660 INR/month",
+        "location": "Bangalore, Karnataka"
+    },
+    {
+        "title": "Electrical Intern",
+        "internship_type": "Full-time",
+        "domain": "Electrical",
+        "overview": "Exciting opportunity to work on projects related to Electrical.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Embedded Systems",
+            "Circuit Design",
+            "MATLAB"
+        ],
+        "job_type": "Remote",
+        "job_role": "Control Systems Intern",
+        "salary": "8781 INR/month",
+        "location": "Nagpur, Maharashtra"
+    },
+    {
+        "title": "Data Science Intern",
+        "internship_type": "Part-time",
+        "domain": "Data Science",
+        "overview": "Exciting opportunity to work on projects related to Data Science.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Pandas",
+            "Python",
+            "NumPy"
+        ],
+        "job_type": "Remote",
+        "job_role": "Data Scientist Intern",
+        "salary": "6778 INR/month",
+        "location": "Gurugram, Haryana"
+    },
+    {
+        "title": "Game Development Intern",
+        "internship_type": "Full-time",
+        "domain": "Game Development",
+        "overview": "Exciting opportunity to work on projects related to Game Development.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Unity",
+            "Unreal Engine",
+            "C++"
+        ],
+        "job_type": "Onsite",
+        "job_role": "Game Developer Intern",
+        "salary": "19803 INR/month",
+        "location": "Hyderabad, Telangana"
+    },
+    {
+        "title": "Mechanical Intern",
+        "internship_type": "Full-time",
+        "domain": "Mechanical",
+        "overview": "Exciting opportunity to work on projects related to Mechanical.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "AutoCAD",
+            "Thermodynamics",
+            "Manufacturing"
+        ],
+        "job_type": "Hybrid",
+        "job_role": "Automobile Intern",
+        "salary": "19908 INR/month",
+        "location": "Delhi NCR"
+    },
+    {
+        "title": "Web Development Intern",
+        "internship_type": "Full-time",
+        "domain": "Web Development",
+        "overview": "Exciting opportunity to work on projects related to Web Development.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "CSS",
+            "JavaScript",
+            "Node.js"
+        ],
+        "job_type": "Hybrid",
+        "job_role": "Backend Intern",
+        "salary": "12374 INR/month",
+        "location": "Kolkata, West Bengal"
+    },
+    {
+        "title": "Biotechnology Intern",
+        "internship_type": "Part-time",
+        "domain": "Biotechnology",
+        "overview": "Exciting opportunity to work on projects related to Biotechnology.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Bioinformatics",
+            "Biostatistics",
+            "Molecular Biology"
+        ],
+        "job_type": "Remote",
+        "job_role": "Research Intern",
+        "salary": "18855 INR/month",
+        "location": "Mumbai, Maharashtra"
+    },
+    {
+        "title": "Game Development Intern",
+        "internship_type": "Full-time",
+        "domain": "Game Development",
+        "overview": "Exciting opportunity to work on projects related to Game Development.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "C#",
+            "3D Modeling",
+            "C++"
+        ],
+        "job_type": "Remote",
+        "job_role": "Graphics Programmer Intern",
+        "salary": "6344 INR/month",
+        "location": "Hyderabad, Telangana"
+    },
+    {
+        "title": "Cyber Security Intern",
+        "internship_type": "Part-time",
+        "domain": "Cyber Security",
+        "overview": "Exciting opportunity to work on projects related to Cyber Security.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Networking",
+            "Python",
+            "Linux"
+        ],
+        "job_type": "Remote",
+        "job_role": "Vulnerability Research Intern",
+        "salary": "18788 INR/month",
+        "location": "Bangalore, Karnataka"
+    },
+    {
+        "title": "Data Science Intern",
+        "internship_type": "Full-time",
+        "domain": "Data Science",
+        "overview": "Exciting opportunity to work on projects related to Data Science.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Pandas",
+            "SQL",
+            "Machine Learning"
+        ],
+        "job_type": "Hybrid",
+        "job_role": "Data Scientist Intern",
+        "salary": "13549 INR/month",
+        "location": "Hyderabad, Telangana"
+    },
+    {
+        "title": "Web Development Intern",
+        "internship_type": "Full-time",
+        "domain": "Web Development",
+        "overview": "Exciting opportunity to work on projects related to Web Development.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "CSS",
+            "Node.js",
+            "JavaScript"
+        ],
+        "job_type": "Remote",
+        "job_role": "Backend Intern",
+        "salary": "13153 INR/month",
+        "location": "Delhi NCR"
+    },
+    {
+        "title": "Civil Intern",
+        "internship_type": "Full-time",
+        "domain": "Civil",
+        "overview": "Exciting opportunity to work on projects related to Civil.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Structural Design",
+            "STAAD Pro",
+            "Site Supervision"
+        ],
+        "job_type": "Onsite",
+        "job_role": "Construction Intern",
+        "salary": "19209 INR/month",
+        "location": "Mumbai, Maharashtra"
+    },
+    {
+        "title": "Artificial Intelligence / Machine Learning Intern",
+        "internship_type": "Part-time",
+        "domain": "Artificial Intelligence / Machine Learning",
+        "overview": "Exciting opportunity to work on projects related to Artificial Intelligence / Machine Learning.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Python",
+            "Data Science",
+            "PyTorch"
+        ],
+        "job_type": "Remote",
+        "job_role": "ML Engineer Intern",
+        "salary": "12411 INR/month",
+        "location": "Hyderabad, Telangana"
+    },
+    {
+        "title": "Biotechnology Intern",
+        "internship_type": "Part-time",
+        "domain": "Biotechnology",
+        "overview": "Exciting opportunity to work on projects related to Biotechnology.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Bioinformatics",
+            "Molecular Biology",
+            "Biostatistics"
+        ],
+        "job_type": "Onsite",
+        "job_role": "Biotech Lab Intern",
+        "salary": "16594 INR/month",
+        "location": "Hyderabad, Telangana"
+    },
+    {
+        "title": "Game Development Intern",
+        "internship_type": "Full-time",
+        "domain": "Game Development",
+        "overview": "Exciting opportunity to work on projects related to Game Development.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "C++",
+            "3D Modeling",
+            "Unreal Engine"
+        ],
+        "job_type": "Hybrid",
+        "job_role": "Graphics Programmer Intern",
+        "salary": "9868 INR/month",
+        "location": "Hyderabad, Telangana"
+    },
+    {
+        "title": "Cyber Security Intern",
+        "internship_type": "Part-time",
+        "domain": "Cyber Security",
+        "overview": "Exciting opportunity to work on projects related to Cyber Security.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Networking",
+            "Python",
+            "Linux"
+        ],
+        "job_type": "Remote",
+        "job_role": "Vulnerability Research Intern",
+        "salary": "16490 INR/month",
+        "location": "Noida, Uttar Pradesh"
+    },
+    {
+        "title": "Web Development Intern",
+        "internship_type": "Full-time",
+        "domain": "Web Development",
+        "overview": "Exciting opportunity to work on projects related to Web Development.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Node.js",
+            "JavaScript",
+            "React"
+        ],
+        "job_type": "Onsite",
+        "job_role": "Backend Intern",
+        "salary": "6834 INR/month",
+        "location": "Pune, Maharashtra"
+    },
+    {
+        "title": "Cyber Security Intern",
+        "internship_type": "Part-time",
+        "domain": "Cyber Security",
+        "overview": "Exciting opportunity to work on projects related to Cyber Security.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Python",
+            "Penetration Testing",
+            "OWASP"
+        ],
+        "job_type": "Remote",
+        "job_role": "Security Analyst Intern",
+        "salary": "14698 INR/month",
+        "location": "Hyderabad, Telangana"
+    },
+    {
+        "title": "Electrical Intern",
+        "internship_type": "Part-time",
+        "domain": "Electrical",
+        "overview": "Exciting opportunity to work on projects related to Electrical.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Embedded Systems",
+            "Power Systems",
+            "MATLAB"
+        ],
+        "job_type": "Remote",
+        "job_role": "Power Engineer Intern",
+        "salary": "8078 INR/month",
+        "location": "Nagpur, Maharashtra"
+    },
+    {
+        "title": "Data Science Intern",
+        "internship_type": "Part-time",
+        "domain": "Data Science",
+        "overview": "Exciting opportunity to work on projects related to Data Science.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Machine Learning",
+            "SQL",
+            "Pandas"
+        ],
+        "job_type": "Remote",
+        "job_role": "Data Scientist Intern",
+        "salary": "6673 INR/month",
+        "location": "Hyderabad, Telangana"
+    },
+    {
+        "title": "Game Development Intern",
+        "internship_type": "Full-time",
+        "domain": "Game Development",
+        "overview": "Exciting opportunity to work on projects related to Game Development.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "C#",
+            "C++",
+            "Unreal Engine"
+        ],
+        "job_type": "Hybrid",
+        "job_role": "Game Developer Intern",
+        "salary": "13336 INR/month",
+        "location": "Hyderabad, Telangana"
+    },
+    {
+        "title": "Mechanical Intern",
+        "internship_type": "Full-time",
+        "domain": "Mechanical",
+        "overview": "Exciting opportunity to work on projects related to Mechanical.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Thermodynamics",
+            "SolidWorks",
+            "AutoCAD"
+        ],
+        "job_type": "Remote",
+        "job_role": "Manufacturing Intern",
+        "salary": "5659 INR/month",
+        "location": "Ahmedabad, Gujarat"
+    },
+    {
+        "title": "Game Development Intern",
+        "internship_type": "Full-time",
+        "domain": "Game Development",
+        "overview": "Exciting opportunity to work on projects related to Game Development.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Unity",
+            "C++",
+            "C#"
+        ],
+        "job_type": "Hybrid",
+        "job_role": "Graphics Programmer Intern",
+        "salary": "12225 INR/month",
+        "location": "Bangalore, Karnataka"
+    },
+    {
+        "title": "Artificial Intelligence / Machine Learning Intern",
+        "internship_type": "Full-time",
+        "domain": "Artificial Intelligence / Machine Learning",
+        "overview": "Exciting opportunity to work on projects related to Artificial Intelligence / Machine Learning.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "NLP",
+            "TensorFlow",
+            "Data Science"
+        ],
+        "job_type": "Hybrid",
+        "job_role": "AI Research Intern",
+        "salary": "16356 INR/month",
+        "location": "Chennai, Tamil Nadu"
+    },
+    {
+        "title": "Artificial Intelligence / Machine Learning Intern",
+        "internship_type": "Part-time",
+        "domain": "Artificial Intelligence / Machine Learning",
+        "overview": "Exciting opportunity to work on projects related to Artificial Intelligence / Machine Learning.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Python",
+            "NLP",
+            "Data Science"
+        ],
+        "job_type": "Onsite",
+        "job_role": "AI Research Intern",
+        "salary": "7251 INR/month",
+        "location": "Hyderabad, Telangana"
+    },
+    {
+        "title": "Mechanical Intern",
+        "internship_type": "Part-time",
+        "domain": "Mechanical",
+        "overview": "Exciting opportunity to work on projects related to Mechanical.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "AutoCAD",
+            "Thermodynamics",
+            "SolidWorks"
+        ],
+        "job_type": "Remote",
+        "job_role": "Mechanical Design Intern",
+        "salary": "10539 INR/month",
+        "location": "Delhi NCR"
+    },
+    {
+        "title": "Biotechnology Intern",
+        "internship_type": "Full-time",
+        "domain": "Biotechnology",
+        "overview": "Exciting opportunity to work on projects related to Biotechnology.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Bioinformatics",
+            "Molecular Biology",
+            "Biostatistics"
+        ],
+        "job_type": "Hybrid",
+        "job_role": "Clinical Research Intern",
+        "salary": "6306 INR/month",
+        "location": "Hyderabad, Telangana"
+    },
+    {
+        "title": "Artificial Intelligence / Machine Learning Intern",
+        "internship_type": "Part-time",
+        "domain": "Artificial Intelligence / Machine Learning",
+        "overview": "Exciting opportunity to work on projects related to Artificial Intelligence / Machine Learning.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "PyTorch",
+            "NLP",
+            "TensorFlow"
+        ],
+        "job_type": "Onsite",
+        "job_role": "Data Scientist Intern",
+        "salary": "11197 INR/month",
+        "location": "Pune, Maharashtra"
+    },
+    {
+        "title": "Robotics Intern",
+        "internship_type": "Part-time",
+        "domain": "Robotics",
+        "overview": "Exciting opportunity to work on projects related to Robotics.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Automation",
+            "CAD Design",
+            "Raspberry Pi"
+        ],
+        "job_type": "Hybrid",
+        "job_role": "Embedded Systems Intern",
+        "salary": "16614 INR/month",
+        "location": "Pune, Maharashtra"
+    },
+    {
+        "title": "Game Development Intern",
+        "internship_type": "Part-time",
+        "domain": "Game Development",
+        "overview": "Exciting opportunity to work on projects related to Game Development.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Unreal Engine",
+            "Unity",
+            "3D Modeling"
+        ],
+        "job_type": "Remote",
+        "job_role": "Game Developer Intern",
+        "salary": "15170 INR/month",
+        "location": "Pune, Maharashtra"
+    },
+    {
+        "title": "Data Science Intern",
+        "internship_type": "Full-time",
+        "domain": "Data Science",
+        "overview": "Exciting opportunity to work on projects related to Data Science.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Machine Learning",
+            "Pandas",
+            "Python"
+        ],
+        "job_type": "Remote",
+        "job_role": "Data Scientist Intern",
+        "salary": "15164 INR/month",
+        "location": "Gurugram, Haryana"
+    },
+    {
+        "title": "Artificial Intelligence / Machine Learning Intern",
+        "internship_type": "Full-time",
+        "domain": "Artificial Intelligence / Machine Learning",
+        "overview": "Exciting opportunity to work on projects related to Artificial Intelligence / Machine Learning.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "NLP",
+            "PyTorch",
+            "TensorFlow"
+        ],
+        "job_type": "Hybrid",
+        "job_role": "AI Research Intern",
+        "salary": "17597 INR/month",
+        "location": "Chennai, Tamil Nadu"
+    },
+    {
+        "title": "Web Development Intern",
+        "internship_type": "Part-time",
+        "domain": "Web Development",
+        "overview": "Exciting opportunity to work on projects related to Web Development.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "HTML",
+            "React",
+            "JavaScript"
+        ],
+        "job_type": "Remote",
+        "job_role": "Backend Intern",
+        "salary": "17697 INR/month",
+        "location": "Delhi NCR"
+    },
+    {
+        "title": "Game Development Intern",
+        "internship_type": "Full-time",
+        "domain": "Game Development",
+        "overview": "Exciting opportunity to work on projects related to Game Development.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Unity",
+            "C#",
+            "Unreal Engine"
+        ],
+        "job_type": "Onsite",
+        "job_role": "Level Designer Intern",
+        "salary": "7688 INR/month",
+        "location": "Hyderabad, Telangana"
+    },
+    {
+        "title": "Artificial Intelligence / Machine Learning Intern",
+        "internship_type": "Full-time",
+        "domain": "Artificial Intelligence / Machine Learning",
+        "overview": "Exciting opportunity to work on projects related to Artificial Intelligence / Machine Learning.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "TensorFlow",
+            "Data Science",
+            "PyTorch"
+        ],
+        "job_type": "Onsite",
+        "job_role": "ML Engineer Intern",
+        "salary": "6952 INR/month",
+        "location": "Chennai, Tamil Nadu"
+    },
+    {
+        "title": "Robotics Intern",
+        "internship_type": "Part-time",
+        "domain": "Robotics",
+        "overview": "Exciting opportunity to work on projects related to Robotics.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Arduino",
+            "Raspberry Pi",
+            "CAD Design"
+        ],
+        "job_type": "Remote",
+        "job_role": "Robotics Engineer Intern",
+        "salary": "5861 INR/month",
+        "location": "Bangalore, Karnataka"
+    },
+    {
+        "title": "Game Development Intern",
+        "internship_type": "Part-time",
+        "domain": "Game Development",
+        "overview": "Exciting opportunity to work on projects related to Game Development.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "C++",
+            "Unreal Engine",
+            "C#"
+        ],
+        "job_type": "Remote",
+        "job_role": "Graphics Programmer Intern",
+        "salary": "11527 INR/month",
+        "location": "Pune, Maharashtra"
+    },
+    {
+        "title": "Data Science Intern",
+        "internship_type": "Full-time",
+        "domain": "Data Science",
+        "overview": "Exciting opportunity to work on projects related to Data Science.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Pandas",
+            "NumPy",
+            "SQL"
+        ],
+        "job_type": "Onsite",
+        "job_role": "Data Scientist Intern",
+        "salary": "18945 INR/month",
+        "location": "Bangalore, Karnataka"
+    },
+    {
+        "title": "Electrical Intern",
+        "internship_type": "Full-time",
+        "domain": "Electrical",
+        "overview": "Exciting opportunity to work on projects related to Electrical.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Circuit Design",
+            "Power Systems",
+            "MATLAB"
+        ],
+        "job_type": "Remote",
+        "job_role": "Control Systems Intern",
+        "salary": "8807 INR/month",
+        "location": "Chennai, Tamil Nadu"
+    },
+    {
+        "title": "Robotics Intern",
+        "internship_type": "Part-time",
+        "domain": "Robotics",
+        "overview": "Exciting opportunity to work on projects related to Robotics.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Arduino",
+            "Automation",
+            "CAD Design"
+        ],
+        "job_type": "Remote",
+        "job_role": "Embedded Systems Intern",
+        "salary": "18954 INR/month",
+        "location": "Chennai, Tamil Nadu"
+    },
+    {
+        "title": "Civil Intern",
+        "internship_type": "Full-time",
+        "domain": "Civil",
+        "overview": "Exciting opportunity to work on projects related to Civil.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Site Supervision",
+            "STAAD Pro",
+            "AutoCAD"
+        ],
+        "job_type": "Hybrid",
+        "job_role": "Civil Engineer Intern",
+        "salary": "19962 INR/month",
+        "location": "Mumbai, Maharashtra"
+    },
+    {
+        "title": "Civil Intern",
+        "internship_type": "Part-time",
+        "domain": "Civil",
+        "overview": "Exciting opportunity to work on projects related to Civil.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Site Supervision",
+            "Structural Design",
+            "STAAD Pro"
+        ],
+        "job_type": "Remote",
+        "job_role": "Construction Intern",
+        "salary": "11713 INR/month",
+        "location": "Kolkata, West Bengal"
+    },
+    {
+        "title": "Cyber Security Intern",
+        "internship_type": "Part-time",
+        "domain": "Cyber Security",
+        "overview": "Exciting opportunity to work on projects related to Cyber Security.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Linux",
+            "Penetration Testing",
+            "Networking"
+        ],
+        "job_type": "Hybrid",
+        "job_role": "SOC Intern",
+        "salary": "14741 INR/month",
+        "location": "Bangalore, Karnataka"
+    },
+    {
+        "title": "Data Science Intern",
+        "internship_type": "Full-time",
+        "domain": "Data Science",
+        "overview": "Exciting opportunity to work on projects related to Data Science.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Machine Learning",
+            "NumPy",
+            "Pandas"
+        ],
+        "job_type": "Hybrid",
+        "job_role": "Data Analyst Intern",
+        "salary": "10599 INR/month",
+        "location": "Hyderabad, Telangana"
+    },
+    {
+        "title": "Electrical Intern",
+        "internship_type": "Part-time",
+        "domain": "Electrical",
+        "overview": "Exciting opportunity to work on projects related to Electrical.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "MATLAB",
+            "Power Systems",
+            "Circuit Design"
+        ],
+        "job_type": "Hybrid",
+        "job_role": "Control Systems Intern",
+        "salary": "11387 INR/month",
+        "location": "Bhopal, Madhya Pradesh"
+    },
+    {
+        "title": "Biotechnology Intern",
+        "internship_type": "Part-time",
+        "domain": "Biotechnology",
+        "overview": "Exciting opportunity to work on projects related to Biotechnology.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Biostatistics",
+            "Bioinformatics",
+            "Molecular Biology"
+        ],
+        "job_type": "Hybrid",
+        "job_role": "Biotech Lab Intern",
+        "salary": "15461 INR/month",
+        "location": "Mumbai, Maharashtra"
+    },
+    {
+        "title": "Civil Intern",
+        "internship_type": "Full-time",
+        "domain": "Civil",
+        "overview": "Exciting opportunity to work on projects related to Civil.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "AutoCAD",
+            "STAAD Pro",
+            "Site Supervision"
+        ],
+        "job_type": "Onsite",
+        "job_role": "Civil Engineer Intern",
+        "salary": "12602 INR/month",
+        "location": "Delhi NCR"
+    },
+    {
+        "title": "Mechanical Intern",
+        "internship_type": "Part-time",
+        "domain": "Mechanical",
+        "overview": "Exciting opportunity to work on projects related to Mechanical.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Thermodynamics",
+            "SolidWorks",
+            "AutoCAD"
+        ],
+        "job_type": "Onsite",
+        "job_role": "Manufacturing Intern",
+        "salary": "5494 INR/month",
+        "location": "Delhi NCR"
+    },
+    {
+        "title": "Game Development Intern",
+        "internship_type": "Part-time",
+        "domain": "Game Development",
+        "overview": "Exciting opportunity to work on projects related to Game Development.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "C#",
+            "3D Modeling",
+            "Unity"
+        ],
+        "job_type": "Hybrid",
+        "job_role": "Graphics Programmer Intern",
+        "salary": "8083 INR/month",
+        "location": "Hyderabad, Telangana"
+    },
+    {
+        "title": "Robotics Intern",
+        "internship_type": "Part-time",
+        "domain": "Robotics",
+        "overview": "Exciting opportunity to work on projects related to Robotics.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Automation",
+            "Raspberry Pi",
+            "CAD Design"
+        ],
+        "job_type": "Remote",
+        "job_role": "Embedded Systems Intern",
+        "salary": "10154 INR/month",
+        "location": "Chennai, Tamil Nadu"
+    },
+    {
+        "title": "Cyber Security Intern",
+        "internship_type": "Part-time",
+        "domain": "Cyber Security",
+        "overview": "Exciting opportunity to work on projects related to Cyber Security.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Linux",
+            "OWASP",
+            "Python"
+        ],
+        "job_type": "Remote",
+        "job_role": "SOC Intern",
+        "salary": "10639 INR/month",
+        "location": "Bangalore, Karnataka"
+    },
+    {
+        "title": "Data Science Intern",
+        "internship_type": "Full-time",
+        "domain": "Data Science",
+        "overview": "Exciting opportunity to work on projects related to Data Science.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Machine Learning",
+            "SQL",
+            "NumPy"
+        ],
+        "job_type": "Remote",
+        "job_role": "Data Engineer Intern",
+        "salary": "15738 INR/month",
+        "location": "Gurugram, Haryana"
+    },
+    {
+        "title": "Web Development Intern",
+        "internship_type": "Part-time",
+        "domain": "Web Development",
+        "overview": "Exciting opportunity to work on projects related to Web Development.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "JavaScript",
+            "HTML",
+            "React"
+        ],
+        "job_type": "Hybrid",
+        "job_role": "Full Stack Intern",
+        "salary": "12489 INR/month",
+        "location": "Delhi NCR"
+    },
+    {
+        "title": "Robotics Intern",
+        "internship_type": "Part-time",
+        "domain": "Robotics",
+        "overview": "Exciting opportunity to work on projects related to Robotics.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Automation",
+            "Raspberry Pi",
+            "CAD Design"
+        ],
+        "job_type": "Onsite",
+        "job_role": "Embedded Systems Intern",
+        "salary": "13754 INR/month",
+        "location": "Chennai, Tamil Nadu"
+    },
+    {
+        "title": "Mechanical Intern",
+        "internship_type": "Full-time",
+        "domain": "Mechanical",
+        "overview": "Exciting opportunity to work on projects related to Mechanical.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "Thermodynamics",
+            "AutoCAD",
+            "SolidWorks"
+        ],
+        "job_type": "Onsite",
+        "job_role": "Automobile Intern",
+        "salary": "5094 INR/month",
+        "location": "Ahmedabad, Gujarat"
+    },
+    {
+        "title": "Web Development Intern",
+        "internship_type": "Full-time",
+        "domain": "Web Development",
+        "overview": "Exciting opportunity to work on projects related to Web Development.",
+        "requirements": [
+            "Relevant academic background",
+            "Strong problem-solving skills"
+        ],
+        "skills_experience": [
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ],
+        "job_type": "Onsite",
+        "job_role": "Backend Intern",
+        "salary": "9264 INR/month",
+        "location": "Kolkata, West Bengal"
+    }
+]

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Margdarshak | About Us</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #e6e1d8;
+      color: #111;
+    }
+
+    /* Navbar */
+    .navbar {
+      background: #e6e1d8;   /* Bright blue */
+      color: #fff;
+      padding: 15px 0;
+      position: sticky;   /* Makes it stick */
+      top: 0;             /* Stick to the top */
+      z-index: 1000;      /* Keep it above other content */
+    }
+    .navbar .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      margin: auto;
+    }
+    .navbar .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: #111;
+    }
+    .navbar nav a {
+      color: #000000;
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    .navbar nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Hero */
+    .hero {
+      margin: 40px 50px;
+    }
+
+    .hero small {
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      color: #555;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      font-weight: 700;
+      max-width: 800px;
+      margin-top: 10px;
+    }
+
+    /* Cards Section */
+    .carousel-container {
+      position: relative;
+      padding: 0 50px 50px;
+    }
+
+    .cards {
+      display: flex;
+      gap: 20px;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      scrollbar-width: none; /* hide scrollbar firefox */
+      -ms-overflow-style: none; /* hide scrollbar IE */
+    }
+
+    .cards::-webkit-scrollbar {
+      display: none; /* hide scrollbar chrome */
+    }
+
+    .card {
+      flex: 0 0 280px;
+      border-radius: 20px;
+      background: #f8f8f8;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    .card-header {
+      padding: 20px;
+    }
+
+    .tag {
+      font-size: 12px;
+      font-weight: 600;
+      background: #ddd;
+      padding: 3px 8px;
+      border-radius: 12px;
+      margin-right: 5px;
+    }
+
+    .card h2 {
+      font-size: 22px;
+      margin: 10px 0;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .card-footer {
+      padding: 15px;
+      font-size: 14px;
+      font-weight: 600;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid #eee;
+    }
+
+    .card-footer span {
+      cursor: pointer;
+      color: #111;
+    }
+
+    /* Colors */
+    .junior { background: #ccff66; }
+    .youth { background: #f2e6ff; }
+    .adult { background: #f9f6f2; }
+    .private { background: #d1ecf1; }
+    .fitness { background: #ffe6cc; }
+    .elite { background: #ffd6d6; }
+
+    /* Carousel buttons */
+    .carousel-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #111;
+      color: #fff;
+      border: none;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.3s;
+      z-index: 10;
+    }
+
+    .carousel-btn:hover {
+      background: #333;
+    }
+
+    .btn-left {
+      left: 15px;
+    }
+
+    .btn-right {
+      right: 15px;
+    }
+
+    /* Responsive */
+    @media(max-width: 768px) {
+      .hero {
+        margin: 30px 20px;
+      }
+      .hero h1 {
+        font-size: 32px;
+      }
+      .card {
+        flex: 0 0 240px;
+      }
+      .carousel-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <h2 class="logo">Margdarshak</h2>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about_us.html">About</a>
+        <a href="#">Find Job</a>
+        <a href="#">Profile</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <div class="hero">
+    <small>BOOST YOUR IMPACT</small>
+    <h1>A Dedicated Team Learning, Creating, and Delivering</h1>
+  </div>
+
+  <!-- Carousel -->
+  <div class="carousel-container">
+    <button class="carousel-btn btn-left" id="btnLeft">‹</button>
+    <div class="cards" id="cardTrack">
+      <!-- Junior -->
+      <div class="card junior">
+        <div class="card-header">
+          <span class="tag">5–12 Years</span>
+          <span class="tag">For Kids</span>
+          <h2>Junior Programs</h2>
+          <p>For kids aged 5–12. Focus on fundamentals and fun.</p>
+        </div>
+        <img src="resources/aessests/img1.jpg" alt="Junior">
+        <div class="card-footer">
+          <span>Read More</span> →
+        </div>
+      </div>
+
+      <!-- Youth -->
+      <div class="card youth">
+        <div class="card-header">
+          <span class="tag">13–18 Years</span>
+          <span class="tag">For Teens</span>
+          <h2>Youth Programs</h2>
+          <p>For teens aged 13–18. Advanced techniques and competitive play.</p>
+        </div>
+        <img src="resources/aessests/img2_2.jpg" alt="Youth">
+        <div class="card-footer">
+          <span>Read More</span> →
+        </div>
+      </div>
+
+      <!-- Adult -->
+      <div class="card adult">
+        <div class="card-header">
+          <span class="tag">18–45</span>
+          <span class="tag">All Levels</span>
+          <h2>Adult Programs</h2>
+          <p>For players of all levels. From beginner to advanced.</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6" alt="Adult">
+        <div class="card-footer">
+          <span>Read More</span> →
+        </div>
+      </div>
+
+      <!-- Private Lessons -->
+      <div class="card private">
+        <div class="card-header">
+          <span class="tag">14–45</span>
+          <span class="tag">Custom</span>
+          <h2>Private Lessons</h2>
+          <p>Coaching tailored specifically to your needs.</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978" alt="Private">
+        <div class="card-footer">
+          <span>Read More</span> →
+        </div>
+      </div>
+
+      <!-- Fitness -->
+      <div class="card fitness">
+        <div class="card-header">
+          <span class="tag">All Ages</span>
+          <span class="tag">Fitness</span>
+          <h2>Fitness Training</h2>
+          <p>Improve agility, strength, and overall performance.</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1554284126-aa88f22d8b74" alt="Fitness">
+        <div class="card-footer">
+          <span>Read More</span> →
+        </div>
+      </div>
+
+      <!-- Elite -->
+      <div class="card elite">
+        <div class="card-header">
+          <span class="tag">Elite</span>
+          <span class="tag">Advanced</span>
+          <h2>Elite Training</h2>
+          <p>For competitive players preparing for tournaments.</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1584467735871-bb97fbc0aa82" alt="Elite">
+        <div class="card-footer">
+          <span>Read More</span> →
+        </div>
+      </div>
+    </div>
+    <button class="carousel-btn btn-right" id="btnRight">›</button>
+  </div>
+
+  <script>
+    const cardTrack = document.getElementById('cardTrack');
+    const btnLeft = document.getElementById('btnLeft');
+    const btnRight = document.getElementById('btnRight');
+
+    btnRight.addEventListener('click', () => {
+      cardTrack.scrollBy({ left: 320, behavior: 'smooth' });
+    });
+
+    btnLeft.addEventListener('click', () => {
+      cardTrack.scrollBy({ left: -320, behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>
