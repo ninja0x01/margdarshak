@@ -40,19 +40,20 @@ To build a simple, lightweight AI-based recommendation engine that suggests the 
    cd margdarshak
 
 3. Create Virtual Environment
+   <br>
    python -m venv venv
 
    Activate it:
    - Windows: venv\Scripts\activate
    - Linux/macOS: source venv/bin/activate
 
-4. Install Dependencies
+5. Install Dependencies
    pip install Flask
 
-5. Run the Server
+6. Run the Server
    python app.py
 
-6. Open in Browser
+7. Open in Browser
    http://127.0.0.1:5000
 
 --------------------------------------------------
